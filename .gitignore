@@ -1,0 +1,20 @@
+# Bỏ qua file theo yêu cầu
+Hoc.md
+node.md
+
+# Môi trường ảo (nếu có)
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+
+# Bỏ qua thư mục sinh dữ liệu và ảnh
+alerts/
+outputs/
+*.mp4
+*.pt  # yolov8n.pt file model
+
+# Cấu hình IDE (VSCode, Pycharm, v.v...)
+.vscode/
+.idea/

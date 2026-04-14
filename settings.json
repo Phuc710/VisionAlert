@@ -1,0 +1,7 @@
+{
+    "zone_hold_secs": 3.0,
+    "zone_cooldown": 10,
+    "telegram_token": "8375187823:AAGXe6Q3ou18K7AaEy-BPoo8vu70QcqNOf0",
+    "telegram_chat_id": "6560022754",
+    "zone_max_points": 4
+}
