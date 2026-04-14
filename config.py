@@ -17,5 +17,5 @@ ZONE_COOLDOWN  = 5     # cooldown giữa các lần cảnh báo cùng track_id (
 ZONE_FLASH_HZ  = 0.5   # tốc độ nhấp nháy overlay (giây/chu kỳ)
 
 # ── Telegram ────────────────────────────────────────────────────────────────
-TELEGRAM_TOKEN   = ""
+TELEGRAM_TOKEN   = "8547601180:AAGx6y3YnPi5PyizKNoph9X95KylAy9cftQ"
 TELEGRAM_CHAT_ID = "6560022754"

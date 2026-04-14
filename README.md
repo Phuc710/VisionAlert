@@ -433,3 +433,6 @@ track_id xuất hiện
                     zone_missed.pop(tid)
                     zone_last_alert.pop(tid)
 ```
+>>>>>>> 07a431c (oke)
+>>>>>>> 1502591 (Initial commit for VisionAlert)
+>>>>>>> 07a431c (oke)
