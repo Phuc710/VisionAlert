@@ -159,9 +159,15 @@ class AlertManager {
     }
 
     _updateRealtimeStats(data) {
-        // Update People Count
+        // Cập nhật số người
         const pCount = document.getElementById('peopleCount');
         if (pCount) pCount.textContent = `${data.count} người`;
+
+        // Cập nhật FPS lên footer badge
+        const fpsBadge = document.getElementById('fpsBadge');
+        if (fpsBadge && data.fps !== undefined) {
+            fpsBadge.textContent = `FPS: ${data.fps}`;
+        }
 
         // Update Zone Status Overlay (Real-time)
         if (data.intrusion) {
