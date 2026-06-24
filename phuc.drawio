@@ -1,0 +1,168 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.6 Chrome/144.0.7559.236 Electron/40.8.4 Safari/537.36" version="29.6.6">
+  <diagram name="Page-1" id="oy2vzuUbBUEBO9Oz8So3">
+    <mxGraphModel dx="1188" dy="721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BEAKJcvjVcPcR581oyeY-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontSize=12;fontStyle=1" value="Model Yolov8" vertex="1">
+          <mxGeometry height="1000" width="160" x="512" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="BEAKJcvjVcPcR581oyeY-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontSize=12;fontStyle=1" value="Backend " vertex="1">
+          <mxGeometry height="1000" width="160" x="790" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="BEAKJcvjVcPcR581oyeY-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontSize=12;fontStyle=1" value="Web Dashboard" vertex="1">
+          <mxGeometry height="1000" width="159.75" x="1072.25" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="BEAKJcvjVcPcR581oyeY-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontSize=12;fontStyle=1" value="Telegram Services" vertex="1">
+          <mxGeometry height="1000" width="160" x="1352" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="BEAKJcvjVcPcR581oyeY-5" parent="1" style="shape=umlFrame;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=40;fillColor=light-dark(#eeeeee,#1f2020);fontColor=light-dark(#333333,#cccccc);dashed=1;strokeWidth=2;fontSize=12;fontStyle=1" value="loop" vertex="1">
+          <mxGeometry height="270" width="550" x="430" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="BEAKJcvjVcPcR581oyeY-6" parent="BEAKJcvjVcPcR581oyeY-5" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=12;fontStyle=1" value="[Mỗi 33ms]" vertex="1">
+          <mxGeometry height="23.27586206896552" width="509.8540145985401" x="40.14598540145986" as="geometry" />
+        </mxCell>
+        <mxCell id="BEAKJcvjVcPcR581oyeY-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;fontStyle=1;fontSize=12;" value="GIAI ĐONẠ KHỞI TẠO HỆ THỐNG" vertex="1">
+          <mxGeometry height="40" width="1000" x="510" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="BEAKJcvjVcPcR581oyeY-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=default;align=center;verticalAlign=middle;rounded=0;dashed=1;dashPattern=8 8;fontSize=12;fontStyle=1" value="Khởi động FashAPI&lt;br&gt;load config, zone, settings, Camera" vertex="1">
+          <mxGeometry height="60" width="200" x="770" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="BEAKJcvjVcPcR581oyeY-9" edge="1" parent="1" source="BEAKJcvjVcPcR581oyeY-8" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;fontStyle=1" target="BEAKJcvjVcPcR581oyeY-1" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="672" y="600" as="sourcePoint" />
+            <mxPoint x="772" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BEAKJcvjVcPcR581oyeY-10" connectable="0" parent="BEAKJcvjVcPcR581oyeY-9" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;fontSize=12;fontStyle=1" value="Nạp Model Yolov8" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BEAKJcvjVcPcR581oyeY-11" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=12;fontStyle=1" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="871.0166666666668" y="630" as="sourcePoint" />
+            <mxPoint x="1152.975" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BEAKJcvjVcPcR581oyeY-12" connectable="0" parent="BEAKJcvjVcPcR581oyeY-11" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;fontSize=12;fontStyle=1" value="Stream MJPEG (Hiển thị Video)" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BEAKJcvjVcPcR581oyeY-13" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=12;fontStyle=1" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="869.87" y="680" as="sourcePoint" />
+            <mxPoint x="1429.12" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BEAKJcvjVcPcR581oyeY-14" connectable="0" parent="BEAKJcvjVcPcR581oyeY-13" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;fontSize=12;fontStyle=1" value="Kết nối Bot Telegram" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BEAKJcvjVcPcR581oyeY-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;fontStyle=1;fontSize=12;" value="GIAI ĐOẠN GIÁM SÁT VÀ PHÂN TÍCH" vertex="1">
+          <mxGeometry height="40" width="460" x="512" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="BEAKJcvjVcPcR581oyeY-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=default;align=center;verticalAlign=middle;rounded=0;dashed=1;dashPattern=8 8;fontSize=12;fontStyle=1" value="Đọc frame từ camera,&amp;nbsp;&lt;br&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;và thực hiện tiền xử lý&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="142" x="799" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="BEAKJcvjVcPcR581oyeY-17" edge="1" parent="1" source="BEAKJcvjVcPcR581oyeY-16" style="endArrow=classic;html=1;rounded=0;fontSize=12;fontStyle=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="BEAKJcvjVcPcR581oyeY-1" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="872" y="820" as="sourcePoint" />
+            <mxPoint x="591.6666666666667" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BEAKJcvjVcPcR581oyeY-18" connectable="0" parent="BEAKJcvjVcPcR581oyeY-17" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;fontSize=12;fontStyle=1" value="Detect + Gán ID đối tượng" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BEAKJcvjVcPcR581oyeY-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=default;align=center;verticalAlign=middle;rounded=0;dashed=1;dashPattern=8 8;fontSize=12;fontStyle=1" value="Phát hiện đối tượng (Human Detection)" vertex="1">
+          <mxGeometry height="40" width="150" x="522" y="915" as="geometry" />
+        </mxCell>
+        <mxCell id="BEAKJcvjVcPcR581oyeY-20" edge="1" parent="1" source="BEAKJcvjVcPcR581oyeY-19" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontStyle=1" target="KgT-Fzp3_CugPLSJvhfp-1" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="722" y="920" as="sourcePoint" />
+            <mxPoint x="799.0000000000002" y="955" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BEAKJcvjVcPcR581oyeY-21" connectable="0" parent="BEAKJcvjVcPcR581oyeY-20" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;fontSize=12;fontStyle=1" value="BBox + track_id" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BEAKJcvjVcPcR581oyeY-22" edge="1" parent="1" source="BEAKJcvjVcPcR581oyeY-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontStyle=1" target="BEAKJcvjVcPcR581oyeY-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="960" y="855" />
+              <mxPoint x="960" y="855" />
+            </Array>
+            <mxPoint x="1072" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BEAKJcvjVcPcR581oyeY-23" connectable="0" parent="BEAKJcvjVcPcR581oyeY-22" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontStyle=1" value="Cập nhật (UI)&amp;nbsp;" vertex="1">
+          <mxGeometry relative="1" x="-0.0436" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BEAKJcvjVcPcR581oyeY-25" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontSize=12;fontStyle=1" value="Model Yolov8" vertex="1">
+          <mxGeometry height="70" width="160" x="517" y="1360" as="geometry" />
+        </mxCell>
+        <mxCell id="BEAKJcvjVcPcR581oyeY-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;fontStyle=1;fontSize=12;" value="&lt;span style=&quot;white-space: nowrap;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(193, 193, 193));&quot;&gt;GIAI ĐOẠN CẢNH BÁO (NOTIFICATION)&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="742" x="768" y="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="BEAKJcvjVcPcR581oyeY-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=default;align=center;verticalAlign=middle;rounded=0;dashed=1;dashPattern=8 8;fontSize=12;fontStyle=1" value="&lt;span style=&quot;white-space: pre-wrap;&quot;&gt;Hiển thị cảnh báo&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;white-space: pre-wrap;&quot;&gt;Update History list&lt;/span&gt;" vertex="1">
+          <mxGeometry height="70" width="150" x="1082" y="1190" as="geometry" />
+        </mxCell>
+        <mxCell id="BEAKJcvjVcPcR581oyeY-28" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontStyle=1" target="BEAKJcvjVcPcR581oyeY-27" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="869.3235294117649" y="1225" as="sourcePoint" />
+            <mxPoint x="970" y="1203.1599999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BEAKJcvjVcPcR581oyeY-29" connectable="0" parent="BEAKJcvjVcPcR581oyeY-28" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontStyle=1" value="Gửi dữ liệu cảnh báo" vertex="1">
+          <mxGeometry relative="1" x="0.035" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BEAKJcvjVcPcR581oyeY-30" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=default;align=center;verticalAlign=middle;rounded=0;dashed=1;dashPattern=8 8;fontSize=12;fontStyle=1" value="&lt;span style=&quot;white-space: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;Chụp ảnh Snapshot&lt;br&gt;Save img: /alerts&lt;/span&gt;" vertex="1">
+          <mxGeometry height="55" width="142" x="799" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="BEAKJcvjVcPcR581oyeY-31" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontStyle=1" target="BEAKJcvjVcPcR581oyeY-36" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="871.2066666666667" y="1310" as="sourcePoint" />
+            <mxPoint x="1332" y="1310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BEAKJcvjVcPcR581oyeY-32" connectable="0" parent="BEAKJcvjVcPcR581oyeY-31" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;fontSize=12;fontStyle=1" value="Gửi cảnh báo đến Telegram" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BEAKJcvjVcPcR581oyeY-33" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontSize=12;fontStyle=1" value="Backend " vertex="1">
+          <mxGeometry height="70" width="160" x="789" y="1360" as="geometry" />
+        </mxCell>
+        <mxCell id="BEAKJcvjVcPcR581oyeY-34" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontSize=12;fontStyle=1" value="Web Dashboard" vertex="1">
+          <mxGeometry height="70" width="159.75" x="1072.25" y="1360" as="geometry" />
+        </mxCell>
+        <mxCell id="BEAKJcvjVcPcR581oyeY-35" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontSize=12;fontStyle=1" value="Telegram Services" vertex="1">
+          <mxGeometry height="70" width="160" x="1352" y="1360" as="geometry" />
+        </mxCell>
+        <mxCell id="BEAKJcvjVcPcR581oyeY-36" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=default;align=center;verticalAlign=middle;rounded=0;dashed=1;dashPattern=8 8;fontSize=12;fontStyle=1" value="Nhận Ảnh&lt;br&gt;Info Xâm Nhập" vertex="1">
+          <mxGeometry height="70" width="140" x="1362" y="1270" as="geometry" />
+        </mxCell>
+        <mxCell id="BEAKJcvjVcPcR581oyeY-37" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=default;align=center;verticalAlign=middle;rounded=0;dashed=1;dashPattern=8 8;fontSize=12;fontStyle=1" value="&lt;span style=&quot;white-space: pre-wrap;&quot;&gt;Số người&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;white-space: pre-wrap;&quot;&gt;Hiển thị khung BBox&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;white-space: pre-wrap;&quot;&gt;Trạng thái zone&lt;/span&gt;" vertex="1">
+          <mxGeometry height="70" width="120" x="1092.12" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="KgT-Fzp3_CugPLSJvhfp-3" edge="1" parent="1" source="KgT-Fzp3_CugPLSJvhfp-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="BEAKJcvjVcPcR581oyeY-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KgT-Fzp3_CugPLSJvhfp-4" connectable="0" parent="KgT-Fzp3_CugPLSJvhfp-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="NO" vertex="1">
+          <mxGeometry relative="1" x="-0.5643" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KgT-Fzp3_CugPLSJvhfp-5" edge="1" parent="1" source="KgT-Fzp3_CugPLSJvhfp-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="BEAKJcvjVcPcR581oyeY-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KgT-Fzp3_CugPLSJvhfp-6" connectable="0" parent="KgT-Fzp3_CugPLSJvhfp-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="YES" vertex="1">
+          <mxGeometry relative="1" x="-0.6381" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KgT-Fzp3_CugPLSJvhfp-1" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;div style=&quot;font-weight: 700;&quot;&gt;Vào ROI&lt;/div&gt;&lt;div style=&quot;font-weight: 700;&quot;&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;Hold Time&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: 700;&quot;&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;Cooldown = 0&lt;br/&gt;?&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="135" x="802.5" y="880" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
